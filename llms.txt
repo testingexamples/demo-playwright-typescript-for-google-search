@@ -1,0 +1,20 @@
+# Demo Playwright TypeScript for Google Search
+
+> A typed Playwright + TypeScript reference for Google Search interaction
+> patterns (page title, search box, first result). Never executed against
+> live google.com — see AGENTS.md.
+
+## Docs
+
+- [README](README.md): Caution about Google's Terms of Service, and what this reference demonstrates.
+- [Spec](spec/index.md): The exact three checks, selectors, and expected behavior, as the single source of truth.
+- [Citation](CITATION.cff): Citation metadata for this software.
+
+## Source
+
+- [demo.ts](src/demo.ts): The typed Playwright reference code — never run against google.com.
+
+## Optional
+
+- [AGENTS.md](AGENTS.md): The non-negotiable policy against executing this code against live google.com.
+- [testingexamples.github.io/examples/google-search/](https://testingexamples.github.io/examples/google-search/): The site-wide reference this repo mirrors.

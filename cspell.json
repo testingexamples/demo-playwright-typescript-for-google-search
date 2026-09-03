@@ -1,0 +1,15 @@
+{
+    "version": "0.2",
+    "ignorePaths": [],
+    "dictionaryDefinitions": [],
+    "dictionaries": [],
+    "words": [
+        "chromedriver",
+        "esmoduleinterop",
+        "xattr",
+        "textarea",
+        "google.com"
+    ],
+    "ignoreWords": [],
+    "import": []
+}
