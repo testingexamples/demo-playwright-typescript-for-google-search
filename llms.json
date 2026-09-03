@@ -3,27 +3,51 @@
   "summary": "A typed Playwright + TypeScript reference for Google Search interaction patterns. Never executed against live google.com.",
   "description": "This repo shows three typed Playwright TypeScript checks against Google Search: page title equals 'Google', a search via textarea[name=\"q\"] plus Enter whose results page title contains the query, and clicking the first #search a result changes the hostname away from www.google.com. Google's Terms of Service restrict automated querying, so this code is a reference only and must never be run against live google.com in CI or automated tooling.",
   "repository": "https://github.com/testingexamples/demo-playwright-typescript-for-google-search/",
-  "license": "GPL-2.0-or-later",
+  "license": "MIT OR Apache-2.0 OR GPL-2.0-only OR GPL-3.0-only OR BSD-3-Clause",
   "sections": [
     {
       "title": "Docs",
       "links": [
-        { "title": "README", "url": "README.md", "description": "Caution about Google's Terms of Service, and what this reference demonstrates." },
-        { "title": "Spec", "url": "spec/index.md", "description": "The exact three checks, selectors, and expected behavior, as the single source of truth." },
-        { "title": "Citation", "url": "CITATION.cff", "description": "Citation metadata for this software." }
+        {
+          "title": "README",
+          "url": "README.md",
+          "description": "Caution about Google's Terms of Service, and what this reference demonstrates."
+        },
+        {
+          "title": "Spec",
+          "url": "spec/index.md",
+          "description": "The exact three checks, selectors, and expected behavior, as the single source of truth."
+        },
+        {
+          "title": "Citation",
+          "url": "CITATION.cff",
+          "description": "Citation metadata for this software."
+        }
       ]
     },
     {
       "title": "Source",
       "links": [
-        { "title": "demo.ts", "url": "src/demo.ts", "description": "The typed Playwright reference code — never run against google.com." }
+        {
+          "title": "demo.ts",
+          "url": "src/demo.ts",
+          "description": "The typed Playwright reference code \u2014 never run against google.com."
+        }
       ]
     },
     {
       "title": "Optional",
       "links": [
-        { "title": "AGENTS.md", "url": "AGENTS.md", "description": "The non-negotiable policy against executing this code against live google.com." },
-        { "title": "testingexamples.github.io/examples/google-search/", "url": "https://testingexamples.github.io/examples/google-search/", "description": "The site-wide reference this repo mirrors." }
+        {
+          "title": "AGENTS.md",
+          "url": "AGENTS.md",
+          "description": "The non-negotiable policy against executing this code against live google.com."
+        },
+        {
+          "title": "testingexamples.github.io/examples/google-search/",
+          "url": "https://testingexamples.github.io/examples/google-search/",
+          "description": "The site-wide reference this repo mirrors."
+        }
       ]
     }
   ]
