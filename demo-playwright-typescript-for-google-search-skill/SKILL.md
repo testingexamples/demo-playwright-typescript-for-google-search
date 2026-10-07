@@ -27,12 +27,12 @@ repo demo-playwright-typescript-for-nhs-wales, which is meant to run for
 real, because NHS Wales has no such restriction.
 
 If you want a live target to actually practice these patterns against,
-point Playwright at `https://testingexamples.github.io` instead.
+point Playwright at `https://testingexamples.github.io/en-001/practice/` instead.
 
 ## Adapting the pattern to a safe-to-run site
 
 1. Pick a real target site you're allowed to test against repeatedly (for
-   example, `https://testingexamples.github.io`).
+   example, `https://testingexamples.github.io/en-001/practice/`).
 2. Keep the same three-check shape: a page-level assertion (title), a
    search-and-verify interaction, and a click-through-and-verify
    interaction.

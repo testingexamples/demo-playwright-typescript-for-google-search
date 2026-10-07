@@ -33,7 +33,7 @@ Google's Terms of Service.
 
 If you want a target that's actually safe to run repeatedly while
 practicing these patterns, point Playwright at
-https://testingexamples.github.io instead — see the caution in
+https://testingexamples.github.io/en-001/practice/ instead — see the caution in
 `README.md`.
 
 ## Source of truth

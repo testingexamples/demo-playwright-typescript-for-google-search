@@ -7,7 +7,7 @@
 > live google.com. See [AGENTS.md](AGENTS.md) for the non-negotiable
 > policy. If you want a target that's actually safe to run repeatedly,
 > point Playwright at
-> [testingexamples.github.io](https://testingexamples.github.io) instead,
+> [testingexamples.github.io](https://testingexamples.github.io/en-001/practice/) instead,
 > which was built exactly for that: stable ids, names, classes, and text
 > that don't shift under you.
 
